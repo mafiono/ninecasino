@@ -1,0 +1,62 @@
+Summary for /storage/emulated/0/show-java/sources/com.extragames.ninecasino/jar-files/7.jar
+Decompiled with CFR 0.0
+
+
+c.b.e.a.a
+----------------------------
+
+onStateChange(int[] )
+  Unable to fully structure code
+
+
+c.b.g.i.d
+----------------------------
+
+w(c.b.g.i.g )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl240 : ILOAD_2 : trying to set 1 previously set to 0
+
+
+c.b.h.l0
+----------------------------
+
+<clinit>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl21 : RETURN : trying to set 1 previously set to 0
+
+
+c.b.h.q0
+----------------------------
+
+f(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl183 : ALOAD : trying to set 0 previously set to 1
+
+
+c.f.b.i.e
+----------------------------
+
+E()
+  Unable to fully structure code
+H(boolean int )
+  Unable to fully structure code
+
+
+c.f.b.i.l.c
+----------------------------
+
+<init>(c.f.b.i.d int )
+  Unable to fully structure code
+a(c.f.b.i.l.d )
+  Unable to fully structure code
+
+
+c.f.b.i.l.j
+----------------------------
+
+a(c.f.b.i.l.d )
+  Unable to fully structure code
+
+
+c.h.d.g
+----------------------------
+
+b(android.content.Context android.os.CancellationSignal c.h.g.e$c[] int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl187 : ILOAD : trying to set 1 previously set to 0

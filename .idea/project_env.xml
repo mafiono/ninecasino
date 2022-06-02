@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectEnvService">
+    <option name="envFiles">
+      <list>
+        <env-source-entry type="JSON">
+          <option name="params">
+            <map>
+              <params key="path" value="$PROJECT_DIR$/app/src/info.json" />
+            </map>
+          </option>
+        </env-source-entry>
+      </list>
+    </option>
+  </component>
+</project>
