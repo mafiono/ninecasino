@@ -28,6 +28,7 @@ extends Property<T, Float> {
     public float f;
 
     public f(Property<T, PointF> property, Path path) {
+        super(FunctionalInterface);
         PathMeasure pathMeasure;
         super(Float.class, property.getName());
         this.a = property;
@@ -35,19 +36,22 @@ extends Property<T, Float> {
         this.c = pathMeasure.getLength();
     }
 
-    public Object get(Object object) {
-        return Float.valueOf(this.f);
+    /**
+     * A constructor that takes an identifying name and {@link #getType() type} for the property.
+     *
+     * @param type
+     * @param name
+     */
+    public f(Class<Float> type, String name) {
+        super(type, name);
+        a = null;
+        b = null;
+        c = 0;
     }
 
-    public void set(Object object, Object object2) {
-        Float f2 = (Float)object2;
-        this.f = f2.floatValue();
-        this.b.getPosTan(this.c * f2.floatValue(), this.d, null);
-        PointF pointF = this.e;
-        float[] arrf = this.d;
-        pointF.x = arrf[0];
-        pointF.y = arrf[1];
-        this.a.set(object, (Object)pointF);
+    public Float get(Object object) {
+        return this.f;
     }
+
 }
 
