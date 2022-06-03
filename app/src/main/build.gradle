@@ -3,27 +3,7 @@ plugins {
     id "com.guardsquare.appsweep" version "latest.release"
 }
 
-ext {
-    java.io = ''
-    java.io = ''
-    java.io = ''
-    java.io = ''
-    java.io = ''
-    java.io = ''
-    java.io = ''
-}
-
 android {
-    signingConfigs {
-        debug {
-            storeFile file('C:\\Users\\adamk\\Downloads\\ninecasino.keystore')
-            storePassword '198870'
-            keyAlias 'ninecasino'
-            keyPassword '198870'
-        }
-        release {
-        }
-    }
     compileSdk 31
 
     defaultConfig {
