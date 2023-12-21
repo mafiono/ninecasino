@@ -102,7 +102,7 @@ dependencies {
     implementation 'com.facebook.infer.annotation:annotations:0.10.0'
     implementation 'com.github.eirslett:sc8:0.1.0'
     annotationProcessor 'com.android.databinding:compiler:3.1.4'
-    annotationProcessor 'androidx.databinding:databinding-compiler:7.2.1'
+    annotationProcessor 'androidx.databinding:databinding-compiler:7.4.2'
     implementation 'com.android.databinding:adapters:7.2.1'
     implementation 'androidx.databinding:databinding-adapters:7.2.1'
     implementation 'androidx.work:work-runtime:2.8.0-alpha02'
